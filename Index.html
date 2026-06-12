@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Athul Krishnan U - Resume</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<header class="header">
+    <h1>ATHUL KRISHNAN U</h1>
+    <p class="role">Computer Science Engineering Student</p>
+
+    <div class="contact">
+        <p>📧 athulkrishnankichu15@gmail.com</p>
+        <p>📞 +91 7012731738</p>
+        <p>📍 Alappuzha, Kerala</p>
+        <p>🔗 LinkedIn | GitHub</p>
+    </div>
+</header>
+
+<!-- SUMMARY -->
+<section>
+    <h2>Career Objective</h2>
+    <p>
+        Motivated Computer Science Engineering student passionate about Full Stack Development,
+        Web Technologies, and Software Engineering. Seeking opportunities to build real-world
+        applications and grow technical expertise.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Technical Skills</h2>
+    <div class="grid">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Git & GitHub</div>
+        <div>Responsive Design</div>
+        <div>Problem Solving</div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+    <h2>Internship Experience</h2>
+
+    <div class="card">
+        <h3>Full Stack Development Intern</h3>
+        <span>Decode Labs | June 2026 - Present</span>
+        <ul>
+            <li>Worked on frontend development using HTML, CSS, JS</li>
+            <li>Built responsive web pages and UI components</li>
+            <li>Used Git & GitHub for version control</li>
+        </ul>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>B.Tech Computer Science & Engineering</h3>
+        <span>CAPE College of Engineering | 2024 - Present</span>
+    </div>
+
+    <div class="card">
+        <h3>Higher Secondary (97.67%)</h3>
+        <span>St. John's HSS | 2024</span>
+    </div>
+
+    <div class="card">
+        <h3>SSLC (100%)</h3>
+        <span>H.S.S Chettikulangara | 2022</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li>Resume Website using HTML & CSS</li>
+        <li>Personal Portfolio Website</li>
+        <li>Responsive Web Pages</li>
+        <li>GitHub Pages Hosting</li>
+    </ul>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li>NASSCOM Certification</li>
+        <li>Campus Ambassador Program</li>
+        <li>Technical Workshops</li>
+    </ul>
+</section>
+
+<!-- LANGUAGES -->
+<section>
+    <h2>Languages</h2>
+    <p>Malayalam | English | Hindi</p>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>100% SSLC</li>
+        <li>97.67% Higher Secondary</li>
+        <li>Campus Ambassador</li>
+    </ul>
+</section>
+
+<!-- DECLARATION -->
+<section>
+    <h2>Declaration</h2>
+    <p>I hereby declare that all information provided is true to the best of my knowledge.</p>
+
+    <p><b>Place:</b> Alappuzha</p>
+    <p><b>Date:</b> <span id="date"></span></p>
+
+<script>
+const today = new Date();
+
+document.getElementById("date").innerHTML =
+today.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+});
+</script>
+</section>
+
+</div>
+
+</body>
+  </html>
